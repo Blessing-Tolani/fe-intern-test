@@ -25,22 +25,28 @@ code {
 }
 .checked > input {
   appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -moz-appearance: none;
 }
 .checked > input:after {
   content: "\2714";
   padding: 0px 2px;
   background-color: white;
-  font-size: 8px;
+  font-size: 10px;
   color: black;
 }
 .unchecked > input {
   appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -moz-appearance: none;
 }
 .unchecked > input:after {
   content: "\2714";
   padding: 0px 2px;
   background-color: white;
-  font-size: 8px;
+  font-size: 10px;
   color: white;
 }
 .text {

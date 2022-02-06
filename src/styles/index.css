@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -15,12 +17,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.checkbox > input:checked {
+.checked > input {
   appearance: none;
 }
-.checkbox > input:checked:after {
+.checked > input:after {
   content: "\2714";
   padding: 0px 2px;
   background-color: white;
   font-size: 8px;
+}
+.unchecked > input {
+  appearance: none;
+}
+.unchecked > input:after {
+  content: "\2714";
+  padding: 0px 2px;
+  background-color: white;
+  font-size: 8px;
+  color: white;
+}
+.text {
+  font-family: "Noto Sans JP", sans-serif;
 }

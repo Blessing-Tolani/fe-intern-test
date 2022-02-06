@@ -16,7 +16,7 @@ const Header = () => {
         </svg>
       </div>
       <nav>
-        <ul className="flex justify-evenly w-40 sm:w-52 text-xxs sm:text-sm font-light  text-white">
+        <ul className="flex justify-evenly w-40 sm:w-52 text-xs sm:text-sm font-light  text-white">
           <li>
             <a href="https://risevest.com/">Contact us</a>
           </li>

@@ -17,6 +17,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
 .checked > input {
   appearance: none;
 }
@@ -25,6 +31,7 @@ code {
   padding: 0px 2px;
   background-color: white;
   font-size: 8px;
+  color: black;
 }
 .unchecked > input {
   appearance: none;
